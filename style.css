@@ -62,20 +62,32 @@ ul.topnav li.right {float: right;}
     display: inline;
   }
 
-  /* portfolio images */
+  /* portfolio page images */
 
-  .center{
+  /* .center{
     margin:0 0 0 25px;
-    float: right;
+    float: left;
+  } */
+
+ .laptop{
+   width: 640px;
+   height: 425px;
+ }
+ 
+
+  .box{
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
   }
-  /* portfolio pictures */ 
-  .monitor-code{
-      height: 250px
+
+  .chair-desk{
+    margin: 30px;
   }
+  
 
-
-/* Portrait and Landscape */
-
+ 
 
 /* ----------------------------don't pass------------------------------------------ */
 
@@ -94,9 +106,6 @@ ul.topnav li.right {float: right;}
     margin: 40px 0 70px 70px;
   }
 
-  /* .bio{
-  text-align: left;
-  } */
 
   /* Contact form */
   input[type=text], select, textarea {
