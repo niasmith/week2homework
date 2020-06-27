@@ -57,18 +57,46 @@ ul.topnav li.right {float: right;}
     border-radius: 5px;
     background-color: gray;
     padding: 20px;
-    margin: 0 0 40px 0px;
+    margin: 0 60px 40px 0px;
+    float: right;
+    display: inline;
   }
 
+  /* portfolio images */
+
+  .center{
+    margin:0 0 0 25px;
+    float: right;
+  }
+  /* portfolio pictures */ 
+  .monitor-code{
+      height: 250px
+  }
+
+
+/* Portrait and Landscape */
+
+
+/* ----------------------------don't pass------------------------------------------ */
+
+
+
+ 
   /* index.html info paragraph */
   .info{
-    font-size: 30px;
-    text-align: center;
+    font-size: 25px;
+    text-align: left;
+    background-color:#ffffff;
+    width: 1000px;
+    height: 500px;
+    border: 15px solid gray;
+    padding: 40px;
+    margin: 40px 0 70px 70px;
   }
 
-  .bio{
+  /* .bio{
   text-align: left;
-  }
+  } */
 
   /* Contact form */
   input[type=text], select, textarea {
@@ -112,15 +140,16 @@ ul.topnav li.right {float: right;}
   .portfolio-footer{
     font-size: 18px;
     text-align: center;
-    margin: 30px 0 20px 0;
+    margin: 35% 0 20px 0;
     padding: 5rem
   }
 
-  .content-footer{
+  /* .content-footer{
     font-size: 18px;
     text-align: center;
-    margin: 0px 0 20px 0;
-  }
+    margin: 0px 0 0px 0;
+  } */
+
 /* github link on contact page */
   .github{
     margin: 30px;
