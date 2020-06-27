@@ -11,6 +11,13 @@ h1{
 
 /* navbar */
 
+/* body{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+} */
+
 ul.topnav {
   list-style-type: none;
   margin: 0;
@@ -55,46 +62,30 @@ ul.topnav li.right {float: right;}
     max-width: 100%;
     height: auto;
     border-radius: 5px;
-    background-color: gray;
     padding: 20px;
     margin: 0 60px 40px 0px;
     float: right;
     display: inline;
   }
 
-  /* portfolio page images */
+  /* PORTFOLIO PAGE IMAGES */
 
-  /* .center{
-    margin:0 0 0 25px;
-    float: left;
-  } */
+  .center{
+    margin:0 55px 0 0px;
+    display: center;
+  }
 
  .laptop{
    width: 640px;
    height: 425px;
+   float: left;
+ }
+
+ .paper-man{
+   float: right;
  }
  
-
-  .box{
-    float: left;
-    width: 33.3%;
-    padding: 50px;
-    text-align: center;
-  }
-
-  .chair-desk{
-    margin: 30px;
-  }
-  
-
- 
-
-/* ----------------------------don't pass------------------------------------------ */
-
-
-
- 
-  /* index.html info paragraph */
+  /* HOME PAGE INFORMATION PARAGRAPH*/
   .info{
     font-size: 25px;
     text-align: left;
@@ -104,10 +95,22 @@ ul.topnav li.right {float: right;}
     border: 15px solid gray;
     padding: 40px;
     margin: 40px 0 70px 70px;
+    box-sizing: content-box;
+  }
+  .p1{
+    margin-bottom: 100px;
+     
+  }
+
+  .p1-h{
+    font-style: italic;
+  }
+  .p2-h{
+    font-style: italic;
   }
 
 
-  /* Contact form */
+  /* CONTACT FORM */
   input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -132,7 +135,7 @@ ul.topnav li.right {float: right;}
     background-color: gray;
   }
   
-  /* contact paragraph */
+  /* CONTACT PARAGRAPH */
   .form{
     margin: 0 0 40px 0px;
     font-size: 25px;
@@ -153,11 +156,11 @@ ul.topnav li.right {float: right;}
     padding: 5rem
   }
 
-  /* .content-footer{
+   .contact-footer{
     font-size: 18px;
     text-align: center;
     margin: 0px 0 0px 0;
-  } */
+  } 
 
 /* github link on contact page */
   .github{
@@ -168,4 +171,8 @@ ul.topnav li.right {float: right;}
     font-size: 20px;
     color: gray;
   }
+.sticky-footer{
+  flex-shrink: none;
+}
 
+@media
