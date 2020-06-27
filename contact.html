@@ -1,49 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact me! </title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-  <nav id="navbar">
-    <div class="container">
-     <h1 class="logo"><a href="contact.html"></a>Nia Smith</h1>
-     <ul class="nav_links">
-       <li><a href="index.html">Home</a></li>
-       <li><a href="portfolio.html">Portfolio</a></li>
-       <li><a class="current"  href="contact.html">Contact</a></li>
-     </ul>
-    </div>
-  </nav>
-  <section id="contact form" class="py-3">
-    <div class="container">
-    <h2 class="contact-info">Contact</h2>
-    <p>PLease fill out the form below.</p>
-    <form action="process.php">
-      <div class="form-group">
+   <header>
+     <ul class="topnav">
+      <li><a  href="index.html">Home</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a class="active" href="contact.html">Contact</a></li>
+      
+    </ul>
+    </header>
+    <div class="jumbotron">
+           <div class="container">
+             <h1 class="display-3">Nia Smith</h1>
+           </div>
+     <section class="cont-form">
+     <h2 class="contact-form">Contact Form</h2>
+     <p class="form">Please fill out the form below:</p>
+     <div class="container">
+      <form action="action_page.php">
+    
         <label for="name">Name</label>
-        <input type="name" name="name" id="name">
-      </div>
-      <div class="form-group">
+        <input type="text" id="name" name="name" placeholder="Your name" alt="Enter your name here">   
         <label for="email">Email</label>
-        <input type="email" name="email" id="email">
-      </div>
-      <div class="form-group">
-        <label for="message">Message</label>
-        <input type="message" name="message" id="message">
-      </div>
-      <button type="submit" class="btn">Submit</button>
-    </form>
+        <input type="text" id="email" name="email" placeholder="Your email" alt="Enter you email here">
+        <label for="subject">Message</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+        <input type="submit" alt="Submit" value="Submit">
+      </form>
+      </section>
+      <section class="github">
+        <h3>Find me on Github at:</h3>
+        <a href="https://github.com/niasmith" target="_blank">click me please</a>
+      </section>
     </div>
-  </section>
-  </header>
-  <footer class="mian-footer">
-    <p>Nia Smith &copy;2020, Copyright</p>
-  </footer>
-</body>
-</html>
+    <footer class="content-footer">
+      <p>Nia Smith &copy;2020, Copyright</p>
+    </footer>
+  </body>
+  </html>
