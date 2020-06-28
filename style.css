@@ -11,12 +11,11 @@ h1{
 
 /* navbar */
 
-/* body{
+main .home-page{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 55%;
-} */
+}
 
 ul.topnav {
   list-style-type: none;
@@ -57,15 +56,32 @@ ul.topnav li.right {float: right;}
     font-size: 40px;
   }
 
+  /* display name on index page */
+  .display-3{
+    text-align: center;
+  }
+
 /* image */
   .nia{
     max-width: 100%;
     height: auto;
     border-radius: 5px;
     padding: 20px;
-    margin: 0 60px 40px 0px;
-    float: right;
-    display: inline;
+    margin: 0 0px 0px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .portfolio{
+    /* max-width: 640px; */
+    max-width: 100%;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 0px 0px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   /* PORTFOLIO PAGE IMAGES */
@@ -90,15 +106,13 @@ ul.topnav li.right {float: right;}
     font-size: 25px;
     text-align: left;
     background-color:#ffffff;
-    width: 1000px;
-    height: 500px;
-    border: 15px solid gray;
-    padding: 40px;
-    margin: 40px 0 70px 70px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
     box-sizing: content-box;
   }
   .p1{
-    margin-bottom: 100px;
+    margin-bottom: 0px;
      
   }
 
@@ -107,6 +121,8 @@ ul.topnav li.right {float: right;}
   }
   .p2-h{
     font-style: italic;
+    font-size: 15px;
+    text-align: ;
   }
 
 
@@ -175,4 +191,22 @@ ul.topnav li.right {float: right;}
   flex-shrink: none;
 }
 
-@media
+/* PORTFOLIO PAGE */
+/* @media (max-width: 480px) {
+  .picblock img{
+    background-image: url(mobile.png);
+    background-repeat: no-repeat;
+    background-size: contain ;
+  }
+}
+@media (min-width: 481px) {
+  .picblock img{
+    background-image: url(desktop.png);
+    background-repeat: no-repeat;
+    background-size: contain ;
+  }
+}
+
+.picblock img{
+  max-width:33%;
+} */
