@@ -86,21 +86,21 @@ ul.topnav li.right {float: right;}
 
   /* PORTFOLIO PAGE IMAGES */
 
-  .center{
+  /* .center{
     margin:0 55px 0 0px;
     display: center;
-  }
+  } */
 
- .laptop{
+ /* .laptop{
    width: 640px;
    height: 425px;
    float: left;
- }
+ } */
 
- .paper-man{
+ /* .paper-man{
    float: right;
  }
- 
+  */
   /* HOME PAGE INFORMATION PARAGRAPH*/
   .info{
     font-size: 25px;
@@ -146,7 +146,7 @@ ul.topnav li.right {float: right;}
     border-radius: 4px;
     cursor: pointer;
   }
-  
+  /* Submit button */
   input[type=submit]:hover {
     background-color: gray;
   }
@@ -191,22 +191,14 @@ ul.topnav li.right {float: right;}
   flex-shrink: none;
 }
 
-/* PORTFOLIO PAGE */
-/* @media (max-width: 480px) {
-  .picblock img{
-    background-image: url(mobile.png);
-    background-repeat: no-repeat;
-    background-size: contain ;
-  }
-}
-@media (min-width: 481px) {
-  .picblock img{
-    background-image: url(desktop.png);
-    background-repeat: no-repeat;
-    background-size: contain ;
-  }
+@media screen and (max-width: 500px) {
+  img.responsive {
+      max-width: 340px;
+    }
 }
 
-.picblock img{
-  max-width:33%;
-} */
+@media screen and (min-width: 500px) {
+  img.responsive {
+    max-width: 640px;
+  }
+}
